@@ -1,3 +1,4 @@
+import { Input } from '@angular/core';
 import {Component}from '@angular/core';
 @Component({
   selector:'app-property-card',
@@ -6,6 +7,7 @@ import {Component}from '@angular/core';
 
 })
 export class propertycardcomponent{
+  @Input() propertyname:any
 property:any={
   "Id":1,
   "Name":"Biral House",
